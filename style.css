@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  user-select: none;
+  transition: all 100ms;
+}
+body{
+  margin: 16px;
+  text-align: center;
+}
+#heightGenerate{
+  color: gray;
+  font-size: 16px;
+  margin: 16px;
+}
+#tree{
+  margin: 16px;
+  border: 1px solid green;
+  border-radius: 16px;
+  padding: 16px;
+  overflow:hidden;
+}
+p{
+  font-size: 24px;
+  word-spacing: 4px;
+}
+input, button{
+  padding: 8px 32px;
+  border-radius: 16px;
+}
+button{
+  background-color: green;
+  color: aliceblue;
+  border:2px solid darkgreen;
+ 
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: darkgreen;
+}
